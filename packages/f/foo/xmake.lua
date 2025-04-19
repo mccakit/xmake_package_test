@@ -1,8 +1,8 @@
 package("foo")
     set_description("The foo package")
 
-    add_urls("https://github.com/myrepo/foo.git")
-    add_versions("1.0", "<shasum256 or gitcommit>")
+    add_urls("https://github.com/mccakit/xmake_package_test.git")
+    add_versions("1.0", "58218d253c07a0b66c65e44578a6bdb45503bfb8")
 
     on_install(function (package)
         local configs = {}
