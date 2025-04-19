@@ -1,0 +1,11 @@
+[
+{
+  "directory": "C:\\dev\\project_templates\\package_test",
+  "arguments": ["C:\\Users\\cakit\\scoop\\apps\\msys2\\2025-02-21\\clang64\\bin\\gcc.exe", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-Ibuild\\.gens\\package_test\\msys\\x86_64\\release\\platform\\windows\\idl", "-Isrc\\inc\\foo", "-Ibuild\\.gens\\foo\\msys\\x86_64\\release\\platform\\windows\\idl", "-DNDEBUG", "-o", "build\\.objs\\package_test\\msys\\x86_64\\release\\src\\main.cpp.o", "src\\main.cpp"],
+  "file": "src\\main.cpp"
+},
+{
+  "directory": "C:\\dev\\project_templates\\package_test",
+  "arguments": ["C:\\Users\\cakit\\scoop\\apps\\msys2\\2025-02-21\\clang64\\bin\\gcc.exe", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-Isrc\\inc\\foo", "-Ibuild\\.gens\\foo\\msys\\x86_64\\release\\platform\\windows\\idl", "-DNDEBUG", "-o", "build\\.objs\\foo\\msys\\x86_64\\release\\src\\lib\\foo\\foo.cpp.o", "src\\lib\\foo\\foo.cpp"],
+  "file": "src\\lib\\foo\\foo.cpp"
+}]
