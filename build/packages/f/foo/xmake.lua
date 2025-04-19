@@ -1,7 +1,7 @@
 package("foo")
     set_description("The foo package")
 
-    add_urls("https://github.com/myrepo/foo.git")
+    add_urls("https://github.com/mccakit/xmake_package_test.git")
     add_versions("1.0", "<shasum256 or gitcommit>")
 
     on_install(function (package)
