@@ -1,0 +1,37 @@
+{
+    "lsp": {
+        "clangd": {
+            "binary": {
+                "path": "C:/Users/cakit/scoop/apps/msys2/current/clang64/bin/clangd.exe"
+            }
+        },
+        "lua-language-server": {
+            "binary": {
+                "path": "C:/Users/cakit/scoop/apps/lua-language-server/current/bin/lua-language-server.exe"
+            }
+        }
+    },
+    "languages": {
+        "C++": {
+            "formatter": {
+                "external": {
+                    "command": "C:/Users/cakit/scoop/apps/msys2/current/clang64/bin/clang-format.exe",
+                    "arguments": ["--style=microsoft", "{buffer_path}"]
+                }
+            },
+            "language_servers": ["clangd"]
+        },
+        "C": {
+            "formatter": {
+                "external": {
+                    "command": "C:/Users/cakit/scoop/apps/msys2/current/clang64/bin/clang-format.exe",
+                    "arguments": ["--style=microsoft", "{buffer_path}"]
+                }
+            },
+            "language_servers": ["clangd"]
+        },
+        "Lua": {
+            "language_servers": ["lua-language-server"]
+        }
+    }
+}
